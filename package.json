@@ -1,30 +1,30 @@
 {
   "name": "node-boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Some basic node boilerplate app with eslint, babel and .env",
   "main": "app.js",
   "scripts": {
-    "start": "babel-node ./app.js",
+    "start": "babel-node ./src/server.js",
     "compile": "babel src --out-dir .compiled --source-maps --watch",
-    "nodemon": "nodemon --exec \"babel-node ./app.js\"",
+    "nodemon": "nodemon --exec \"babel-node ./src/server.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Maksim Zezin <mzezin@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.0.0"
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/node": "^7.2.2",
-    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
-    "@babel/preset-env": "^7.2.3",
-    "eslint": "^5.10.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "nodemon": "^1.18.9"
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-env": "^7.7.1",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.4"
   }
 }
